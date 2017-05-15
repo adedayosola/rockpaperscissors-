@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rock, Paper & Scissors</title>
+	<link rel="stylesheet" type="text/css" href="css/rock.css">
+	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
+
+</head>
+<body>
+<!--POP UP-->
+<div id="pop-up">
+	<div  class="pop-up" style="background-color: #D50000">
+		<div >
+			<p class="intro">IT'S THE ROCK PAPER AND SCISSORS GAME</p>
+		</div>
+		<div class="ready-or-not"><p class="ready-text">ARE YOU READY TO PLAY?</p></div>
+		<!-- PROMPT BUTTONS -->
+		<div class="pop-prompt" name="pop">
+			<p id="btn-1" class= "btn"  name="pop">OF COURSE! YES!!!</p>
+			<p id="btn-2" class="btn"  name="pop" >PLEASE GET ME PUT OF HERE.</p>
+		</div><!-- /.PROMPT BUTTONS -->
+	</div>
+</div><!--/.POP UP-->
+
+<!-- CANVAS -->
+<div class="canvas">
+	<!-- PLAYERS -->
+	<div class="players">
+		<!-- YOU -->
+		<div class="you" >
+			<p class="player-txt">MAKE A CHOICE NOW!</p>
+			<div class="choices">
+				<div class="img-box" id="rock"><img class="images" src="images/rock.png" onclick="forWinner('winner')"></div>
+				<div class="img-box" id="paper"><img class="images" src="images/paper.png" onclick="forWinner('winner')"></div>
+				<div class="img-box" id="scissors"><img class="images" src="images/scissors.png" onclick="forWinner('winner')"></div>
+			</div>
+
+		</div><!--/. YOU -->
+		<!-- COMPUTER -->
+		<div class="computer">
+			<p class="player-txt">THE COMPUTER CHOSE</p>
+			<div id="img" class="img-box1"></div>
+		</div><!--/. COMPUTER -->
+		<div class="play-again"><a href="rock-paper-scissors.html">PLAY AGAIN</a></div>
+
+	</div><!-- /.PLAYERS -->
+	<!-- WINNER-DIV -->
+	<div class="winner-div">
+
+
+
+	</div><!-- /.WINNER-DIV -->
+	<div id="winner" class="winner" >
+		<!-- <div class="close"  id="btn" onclick="onClose('winner')">[x]CLOSE</div> -->
+	</div>
+
+</div><!-- /.CANVAS -->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/rockies.js"></script>
+<script type="text/javascript" src="js/paper.js"></script>
+<!-- <script type="text/javascript" src="js/rock.js"></script> -->
+
+</body>
+</html>

@@ -1,0 +1,177 @@
+body{
+	background-color: #01579B;
+	width: 100%;
+}
+
+
+.pop-up{
+	background-color: :#EF5350;
+	border:solid 1px #E57373;
+	border-radius: 20px;
+	display:inline-block;
+	width: 550px;
+	height: 300px;
+	position: absolute;
+	left: 30%;
+	top: 10%;
+
+	}
+#pop-up{
+	display: block;
+}
+
+.btn{
+	background-color: #FAFAFA;
+	border-radius: 10px;
+	color: #D50000;
+	height: 60px;
+	font-size: 18px;
+	font-weight: bold;
+	border-color: #D50000;
+	border-style: double;
+	border-width: 10px;
+	display: inline;
+	padding: 8px;
+
+}
+
+
+.pop-prompt{
+	position: relative;
+	left: 18px;
+	top:10px;
+}
+.ready-or-not{
+	font-size: 35px;
+	font-weight: bold;
+	text-align: center;
+	background-color: white;
+	color:#D50000;
+}
+
+.intro{
+	text-align:center;
+	font-style: arial;
+	font-weight: bold;
+	font-size: 35px;
+	color: white;
+
+}
+.players{
+	border:solid white 5px;
+	border-style: double;
+	border-radius: 30px;
+	display: flex;
+	justify-content: space-around;
+	background-color: #29B6F6;
+}
+.you{
+	text-align: center;
+	border:solid white 1px;
+	margin: 100px;
+	border-radius: 5px;
+	background-color: #E1F5FE;
+	width: 480px !important;
+	height: 300px !important;
+
+}
+
+
+.computer{
+	text-align: center;
+	font-weight: 20px;
+	border:solid white 1px;
+	margin: 100px;
+	border-radius: 5px;
+	background-color: #E1F5FE;
+	width: 480px !important;
+
+}
+
+.player-txt{
+	font-weight: bold;
+	font-size: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: red;
+}
+
+.winner{
+	border:solid #01579B 1px;
+}
+.choices{
+	display: flex;
+	justify-content: space-around;
+}
+.images{
+	width: 140px;
+	height: 140px;
+
+}
+.img-box{
+	border-radius: 10px;
+	border: none;
+	margin: 10px;
+}
+.img-box1{
+	border-radius: 10px;
+	border: none;
+	margin: 10px;
+}
+
+#comp-image{
+	width: 140px;
+	height: 140px;
+}
+
+.play-again{
+	position: absolute;
+	top: 10px;
+	left: 615px;
+	width: 400px;
+	padding: 50px;
+	z-index: -5;
+}
+.play-again a{
+	text-decoration:none;
+	background-color: white;
+	font-size:24px;
+	border-radius: 5px;
+	padding: 10px;
+	color: red
+
+}
+
+.winner{
+	position: absolute;
+	border:solid 1px white;
+	height: 200px;
+	width: 100%;
+	/*top:180px;
+	left: 555px;*/
+
+	border-radius: 15px;
+	display: block;
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+}
+
+.winner-div{
+	background-color: #E1F5FE;;
+	display: flex;
+	justify-content: space-around;
+	color: red;
+	font-weight: bold;
+	text-align: center;
+	font-size: 50px;
+
+}
+.close{
+	position: relative;
+	color: black;
+	top:5px ;
+	left: 300px;
+	display: block;
+}
